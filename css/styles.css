@@ -1,0 +1,45 @@
+/* protofade */
+#pf-slider-container, #pf-slider-container2 {
+    width:700px; 
+    margin:0 auto 30px auto;
+    border: 0;
+    position:relative; 
+    border: 1px solid #CCCCCC;
+}
+#protofade, #protofade2 {
+    position:relative; 
+    margin:0; 
+    padding:0px; 
+    width:700px; 
+    height:180px; 
+    overflow:hidden; 
+}
+#protofade li, #protofade2 li {
+    position:absolute; 
+    top:0;
+    left:0;
+    margin:0; 
+    padding:0; 
+    background:none;
+}
+
+/* styling of the controls links */
+.pf-next,
+.pf-previous,
+.pf-start,
+.pf-stop {
+    cursor:pointer; 
+    display:block; 
+    margin:5px 15px 15px 15px; 
+    float:left;
+}
+
+/* styling of the controls div */
+.pf-controls {
+}
+
+/* styling of the caption div */
+.pf-caption .pf-captioncontent {
+}
+
+/* end protofade */
